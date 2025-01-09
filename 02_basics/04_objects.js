@@ -61,12 +61,45 @@ const users = [
     },
 ]
 users[1].name
-console.log(tinderUser);
+// console.log(tinderUser);
 
 // returns an array
-console.log(Object.keys(tinderUser)); // gives keys
-console.log(Object.values(tinderUser)); // gives values
-console.log(Object.entries(tinderUser)); // converts in arrays // rarely used
+// console.log(Object.keys(tinderUser)); // gives keys
+// console.log(Object.values(tinderUser)); // gives values
+// console.log(Object.entries(tinderUser)); // converts in arrays // rarely used
 
 // to check the values present in array we use .hasOwnPropert
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('name'));
+
+// objct de-structuring and JSON API Intro
+
+const course = {
+    courseName: "JavaScript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// general way to access object vales
+// console.log(course.courseInstructor);
+
+// another way
+// const {courseInstructor} = course
+// we can also modify the name of keys like we can access above value like
+const {courseInstructor:instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+// creating a react component
+// destructuring of object
+// const navbar = ({company}) => {
+// }
+// navbar(company = "Mahajan's")
+
+// API's
+// basic structure of API
+// how data comes from database
+// data always comes in JSON(javascript object notation) format
+// {
+//     "name":"kundan",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
