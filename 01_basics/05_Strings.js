@@ -15,6 +15,8 @@ const study = "Masters";
 const gameName = new String('Siddharth');
 // we can also access the string via index numbers like
 //  console.log(gameName[0])
+// console.log(gameName);
+
 
  // here are some basic methods of stirng methods
 
@@ -46,8 +48,8 @@ const gameName = new String('Siddharth');
  // -9 to 4
  // here -9 means 's' is starting positon and till 4 means h
  // s  i  d  d  h  a  r  t  h
- // 1  2  3  4  5  6  7  8  9
- //-9 -8 -7 -6 -5 -4 -3 -2 -1
+ // 0  1  2  3  4  5  6  7  8 
+ //-9 -8 -7 -6 -5 -4 -3 -2 -1 
  // o/p - Sidd
    
  const anotherString = gameName.slice(-9,5)
