@@ -68,7 +68,7 @@ users[1].name
 // console.log(Object.values(tinderUser)); // gives values
 // console.log(Object.entries(tinderUser)); // converts in arrays // rarely used
 
-// to check the values present in array we use .hasOwnPropert
+// to check the values present in object we use .hasOwnPropert()
 // console.log(tinderUser.hasOwnProperty('name'));
 
 // objct de-structuring and JSON API Intro
